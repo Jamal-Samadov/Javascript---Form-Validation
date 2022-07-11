@@ -1,0 +1,53 @@
+body{
+background-image: linear-gradient(to right, #373B44, #4286f4, #FF0080);
+}
+
+form{
+    text-align: center;
+    margin: 5rem 0px 0rem -3rem;
+    padding-top: 42px;
+}
+form input{
+    padding: 15px 22px;
+    margin: 15px;
+}
+form button{
+    padding: 12px 27px; 
+}
+
+
+p{
+    font-size: 24px;
+}
+#check{
+    padding: 20px;
+}
+
+form h1{
+    padding-bottom: 36px;
+    color: white;
+}
+#eye{
+    font-size: 15px;
+    margin-left: -40px;
+    cursor: pointer;
+}
+
+#pass{
+    margin-left: -3px;
+}
+
+input:invalid{
+    animation: shake 300ms
+}
+@keyframes shake{
+    25% {
+        transform: translateX(4px);
+    }
+    50% {
+        transform: translateX(-4px);
+    }
+    75% {
+        transform: translateX(4px);
+    }
+}
